@@ -1,0 +1,100 @@
+.work {
+    width: 100%;
+    padding: 0 10vw;
+}
+
+.work h1 {
+    margin: 10vh 0;
+    font-family: var(--Outfit);
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 77px;
+    text-align: center;
+}
+.work h1 span {
+    color: var(--font-color-1);
+}
+
+.work-section-1 {
+    margin: 10vh 10vw;
+}
+
+.work-section-1 .carousel-container p {
+    font-family: var(--Roboto);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32.62px;
+    text-align: center;
+    padding: 1vh 0;
+
+}
+
+.work-section-1 .carousel-container img {
+    width: 100%;
+}
+
+.carousel-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.8);
+    /* Scale down non-active slides */
+    transition: transform 0.5s ease-in-out;
+    opacity: 0.7;
+    /* Slightly fade out non-active slides */
+    height: 300px;
+    /* Set a fixed height for the carousel items */
+}
+
+.carousel-item img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.carousel-item.active {
+    transform: scale(1.2);
+    /* Scale up the active slide */
+    opacity: 1;
+}
+
+.slick-center .carousel-item {
+    transform: scale(1);
+    /* Ensure the center item gets the default scale */
+}
+
+.slick-slide {
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.work-section-2 {
+    width: 100%;
+    text-align: center;
+    margin: 20vh 0;
+}
+
+.work-section-2 h2 {
+    font-family: var(--Outfit);
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 55px;
+    color: var(--font-color-1);
+}
+
+.work-section-2 button {
+    margin: 2vh 0;
+    padding: 21px 40px;
+    border-radius: 50px;
+    font-family: var(--Roboto);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27.5px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    background-color: var(--font-color-1);
+}

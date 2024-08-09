@@ -1,0 +1,38 @@
+.profile {
+    width: 100%;
+    padding: 0 10vw;
+}
+
+.profile h1 {
+    margin: 10vh 0;
+    font-family: var(--Outfit);
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 77px;
+    text-align: center;
+    color: var(--font-color-1);
+}
+
+.profile-section-1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10vw;
+    justify-content: center;
+padding: 10vh 0;
+}
+.profile-section-1 .img-box  {
+    width: 370px;    /* Default width */
+    max-width: 100%;
+}
+.profile-section-1 .img-box img {
+    width: 370px;    /* Default width */
+    max-width: 100%;
+}
+
+.profile-section-1 .img-box p {
+    font-family: var(--Roboto);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32.62px;
+margin: 5vh 0;
+}
