@@ -3,8 +3,11 @@ import Slider from "react-slick";
 import Layout from '../../component/Layout'
 import ASSET_PATHS from '../../constant'
 import './Work.css';
+import { useNavigate } from 'react-router-dom';
 
 export default function Work() {
+    const navigate = useNavigate();
+
     const imgRoute = ASSET_PATHS.IMG_URL
 
     const settings = {
@@ -66,7 +69,7 @@ export default function Work() {
 
                     <div className='work-section-2'>
                         <h2>Portfolio</h2>
-                        <button type='button'>ENTER PASSWORD</button>
+                        <button type='button' onClick={() => navigate("/pin")}>ENTER PASSWORD</button>
                     </div>
 
                 </div>

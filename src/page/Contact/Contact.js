@@ -34,7 +34,7 @@ export default function Contact() {
 
                             <div className='input-row'>
                                 <div className='input-control'>
-                                    <input type='text' placeholder='Email' />
+                                    <input type='email' placeholder='Email' />
                                 </div>
                                 <div className='input-control'>
                                     <input type='text' placeholder='Phone' />

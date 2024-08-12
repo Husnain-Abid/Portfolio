@@ -1,10 +1,10 @@
 .profile {
     width: 100%;
     padding: 0 10vw;
+    margin: 10vh 0;
 }
 
 .profile h1 {
-    margin: 10vh 0;
     font-family: var(--Outfit);
     font-size: 70px;
     font-weight: 700;
@@ -16,16 +16,20 @@
 .profile-section-1 {
     display: flex;
     flex-wrap: wrap;
-    gap: 10vw;
+    gap: 5vw;
     justify-content: center;
-padding: 10vh 0;
+    margin: 5vh 0;
 }
-.profile-section-1 .img-box  {
-    width: 370px;    /* Default width */
+
+.profile-section-1 .img-box {
+    width: 370px;
+    /* Default width */
     max-width: 100%;
 }
+
 .profile-section-1 .img-box img {
-    width: 370px;    /* Default width */
+    width: 370px;
+    /* Default width */
     max-width: 100%;
 }
 
@@ -34,5 +38,5 @@ padding: 10vh 0;
     font-size: 24px;
     font-weight: 400;
     line-height: 32.62px;
-margin: 5vh 0;
+    margin: 5vh 0;
 }

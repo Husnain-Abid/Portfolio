@@ -21,8 +21,8 @@ export default function Header() {
                         />
 
                         <ul className={`links ${show ? 'show' : ''}`}>
-                            <li><Link to="/about" onClick={() => setShow(false)}>ABOUT</Link></li>
                             <li><Link to="/cv" onClick={() => setShow(false)}>MY CV</Link></li>
+                            <li><Link to="/work" onClick={() => setShow(false)}>MY WORK</Link></li>
                             <li><Link to="/contact" onClick={() => setShow(false)}>LETS TALK</Link></li>
                         </ul>
                     </div>
